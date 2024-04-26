@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Introduction to Machine Learning",
+      "body": "Machine learning is a subset of artificial intelligence...",
+      "author": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "The Importance of Data Visualization",
+      "body": "Data visualization is a crucial aspect of data analysis...",
+      "author": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "title": "Deep Dive into Neural Networks",
+      "body": "Neural networks are a set of algorithms, modeled loosely after...",
+      "author": "Alex Johnson"
+    }
+  ]
+}
