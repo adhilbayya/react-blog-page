@@ -6,8 +6,9 @@ const useFetch = (url) => {
   const [isError, setisError] = useState(null);
 
   useEffect(() => {
+    const abortConst = new AbortController();
     setTimeout(() => {
-      fetch(url)
+      fetch(url, { signal: abortConst.signal })
         .then((res) => {
           if (!res.ok) {
             throw new Error("The link is not found");
@@ -20,11 +21,16 @@ const useFetch = (url) => {
           setisError(null);
         })
         .catch((err) => {
-          setisError(err.message);
-          setIsPending(false);
+          if (err.name === "AbortError") {
+            console.log("fetch aborted");
+          } else {
+            setisError(err.message);
+            setIsPending(false);
+          }
         });
     }, 1000);
-  });
+    return () => abortConst.abort();
+  }, [url]);
 
   return { blogs, isPending, isError };
 };
