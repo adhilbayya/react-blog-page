@@ -1,22 +1,10 @@
 {
   "blogs": [
     {
-      "id": 1,
-      "title": "Introduction to Machine Learning",
-      "body": "Machine learning is a subset of artificial intelligence that focuses on the development of computer programs that can access data and use it to learn for themselves. The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide.",
-      "author": "John Doe"
-    },
-    {
-      "id": 2,
-      "title": "The Importance of Data Visualization",
-      "body": "Data visualization is a crucial aspect of data analysis and interpretation. It involves the graphical representation of data to provide insights into complex datasets. By using charts, graphs, and other visual elements, data visualization enables users to understand trends, patterns, and outliers in the data more easily. This helps in making informed decisions and communicating findings effectively to stakeholders.",
-      "author": "Jane Smith"
-    },
-    {
-      "id": 3,
-      "title": "Deep Dive into Neural Networks",
-      "body": "Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling, or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text, or time series, must be translated.",
-      "author": "Alex Johnson"
+      "id": "782c",
+      "title": "Another blog",
+      "body": "this is a new blog which is also created for the purpose of storing the data",
+      "author": "bayya"
     }
   ]
 }

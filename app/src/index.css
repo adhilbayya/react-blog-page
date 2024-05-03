@@ -66,6 +66,14 @@
   margin: 20px 0;
 }
 
+.blog-details button {
+  border: 0;
+  background-color: #f1356d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .create {
   margin: 0 auto;
   text-align: center;
